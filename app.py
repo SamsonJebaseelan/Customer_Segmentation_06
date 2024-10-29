@@ -1,5 +1,5 @@
-import pandas as pd
-from flask import Flask, render_template, request, redirect, url_for
+import pandas as pd # type: ignore
+from flask import Flask, render_template, request, redirect, url_for # type: ignore
 import os
 
 app = Flask(__name__)
