@@ -1,3 +1,14 @@
-node_modules
-node_modules
-node_modules
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+.venv/
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+
+# Ignore debugpy and pydevd specific files
+venv/Lib/site-packages/debugpy/_vendored/
